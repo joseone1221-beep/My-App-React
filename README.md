@@ -1,5 +1,9 @@
 # My App React
+## 📸 Vista previa
 
+<p align="center">
+  <img src="images/home.png" width="800" />
+</p>
 Aplicación web estilo CV creada con **React** y **Tailwind CSS**.
 
 ## 🔧 Tecnologías

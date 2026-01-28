@@ -48,6 +48,14 @@ export default function Contact() {
               <li>• Consultoría en UX/UI y diseño de producto</li>
             </ul>
             <a href="mailto:joseraulmiranda676@gmail.com" className="contact-button">Enviar mensaje</a>
+            <a
+              href={`${process.env.PUBLIC_URL}/docs/Frontend develpor resumen.pdf`}
+              download="Frontend_Developer_Resume_Jose_Miranda.pdf"
+              className="contact-button"
+              style={{ marginTop: '10px' }}
+            >
+              Descargar CV
+            </a>
           </div>
 
           {/* TARJETA DISPONIBILIDAD */}

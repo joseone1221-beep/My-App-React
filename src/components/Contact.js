@@ -28,15 +28,32 @@ export default function Contact() {
             </div>
             <div className="contact-item">
               <h4>Teléfono / WhatsApp</h4>
-              <p>+53 55957891</p>
+              <a
+                href="https://wa.me/5355957891"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                📱 Escríbeme por WhatsApp
+              </a>
             </div>
             <div className="contact-item">
               <h4>Redes profesionales</h4>
               <a href="https://github.com/joseone1221-beep" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
-          </div>
 
+            {/* BOTÓN PDF */}
+            <div className="pdf-section">
+              <a
+                href="/docs/Frontend_Developer.pdf"
+                download
+                className="pdf-link"
+              >
+                📄 Descargar CV
+              </a>
+            </div>
+          </div>
+          
           {/* TARJETA TRABAJEMOS JUNTOS */}
           <div className="contact-card card-together">
             <h3>¡Trabajemos juntos!</h3>

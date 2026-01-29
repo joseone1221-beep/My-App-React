@@ -1,13 +1,18 @@
 {
+  "homepage": "https://joseone1221-beep.github.io/My-App-React",
+
   "name": "my-react-app",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+,
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -33,6 +38,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.16"
   }

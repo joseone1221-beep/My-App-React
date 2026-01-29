@@ -47,7 +47,7 @@ export default function Projects() {
             </div>
 
             <a
-              href="https://github.com/tu-usuario/lifeos"
+              href="https://github.com/joseone1221-beep/Plataforma-LifeOS"
               target="_blank"
               rel="noopener noreferrer"
               className="project-link"
@@ -66,22 +66,18 @@ export default function Projects() {
               </div>
               <div>
                 <h3>Plataforma DGT</h3>
-                <span>Gestión Tecnológica Universitaria · Fullstack React</span>
+                <span>Gestión Tecnológica Universitaria · Frontend</span>
               </div>
             </div>
 
             <p className="project-description">
-              Plataforma web para la "Dirección de Gestión Tecnológica" de una universidad cubana.
-              Los usuarios pueden interactuar con encuestas, préstamos de equipos DataShow, noticias
-              y notificaciones. Los administradores gestionan todos los servicios desde un panel
-              de control. Incluye autenticación con roles, paneles responsivos y soporte para
-              temas claro/oscuro.
+              Plataforma web para la Dirección de Gestión Tecnológica de una universidad.
+              Permite encuestas, préstamos de equipos, noticias y notificaciones,
+              con panel administrativo y experiencia de usuario optimizada.
             </p>
 
             <div className="project-tags">
-              <span className="project-tag">React 19.2.3</span>
-              <span className="project-tag">React Scripts 5.0.1</span>
-              <span className="project-tag">Jest / React Testing Library</span>
+              <span className="project-tag">React</span>
               <span className="project-tag">CSS Personalizado</span>
               <span className="project-tag">localStorage</span>
               <span className="project-tag">Internacionalización</span>
@@ -89,7 +85,7 @@ export default function Projects() {
             </div>
 
             <a
-              href="https://github.com/tu-usuario/proyecto-dgt"
+              href="https://github.com/joseone1221-beep/Plataforma-Web-Entidad"
               target="_blank"
               rel="noopener noreferrer"
               className="project-link"

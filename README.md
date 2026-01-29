@@ -1,6 +1,29 @@
-# My React App
+# My App React
+## 📸 Vista previa
 
-This is a simple React application that serves as a starting point for building your own projects.
+<p align="center">
+  <img src="images/home.png" width="800" />
+</p>
+Aplicación web estilo CV creada con **React** y **Tailwind CSS**.
+
+## 🔧 Tecnologías
+
+- React
+- JavaScript
+- Tailwind CSS
+- HTML & CSS
+
+## 📝 Descripción
+
+Esta es una aplicación que muestra un currículum interactivo y moderno. Está pensada para presentar información profesional y habilidades de forma clara y visual.
+
+## 🚀 Cómo ejecutar
+
+1. `git clone https://github.com/joseone1221-beep/My-App-React.git`
+2. `npm install`
+3. `npm start`
+
+¡Listo! 🚀
 
 ## Getting Started
 
